@@ -2,7 +2,7 @@ let handler = async (m, { conn, command }) => {
 let media = './Menu2.jpg'
 let str = `💕 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝙊𝙎 𝙂𝙍𝙐𝙋𝙊𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-Te invito a que te unas a la comunidad de MichiBot y compartas tus dudas o recomendaciones con nosotros😸
+Te invito a que te unas a la comunidad de LokiBot y compartas tus dudas o recomendaciones con nosotros😸
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 𓃠 *Versión de ${gt}*
 ➥ ${vs}

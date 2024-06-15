@@ -1270,8 +1270,8 @@ if (xp > 2000)
 m.reply('Exp limit') // Hehehe
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-//this.reply(m.chat, `🐈 𝑵𝑶 𝑻𝑰𝑬𝑵𝑬 𝑵𝑶𝑹𝑩𝑰𝑪𝑶𝑰𝑵𝑺`, m)
-this.sendMessage(m.chat, {text: `🐈 𝑵𝑶 𝑻𝑰𝑬𝑵𝑬 𝑵𝑶𝑹𝑩𝑰𝑪𝑶𝑰𝑵𝑺`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' LokiBot ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}}, { quoted: m })         
+//this.reply(m.chat, `🐈 𝑵𝑶 𝑻𝑰𝑬𝑵𝑬 𝑳𝑶𝑲𝑰𝑪𝑶𝑰𝑵𝑺`, m)
+this.sendMessage(m.chat, {text: `🐈 𝑵𝑶 𝑻𝑰𝑬𝑵𝑬 𝑳𝑶𝑲𝑰𝑪𝑶𝑰𝑵𝑺`,  contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' LokiBot ', previewType: 0, thumbnail: gataImg, sourceUrl: accountsgb }}}, { quoted: m })         
 continue     
 }
 			
@@ -1341,7 +1341,7 @@ if (m.limit)
 m.reply(+m.limit + lenguajeGB.smsCont8())
 }
 if (m.money)
-m.reply(+m.money + ' 𝑵𝑶𝑹𝑩𝑰 𝑪𝑶𝑰𝑵𝑺 🐱 𝑼𝑺𝑨𝑫𝑶(𝑺)')  
+m.reply(+m.money + ' 𝑳𝑶𝑲𝑰𝑪𝑶𝑰𝑵𝑺 🐱 𝑼𝑺𝑨𝑫𝑶(𝑺)')  
 break
 }}} catch (e) {
 console.error(e)
